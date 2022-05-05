@@ -18,3 +18,16 @@ let castle = {
 }
 
 console.log(castle.name)// === castle["name"]
+
+//--------------------
+let person = {
+    name: "Iulia-Andreea Grigore",
+    age: 20,
+    country: "Romania"
+}
+
+function logData() {
+    console.log(person.name + " is " + person.age + " years olds and lives in " + person.country);
+}
+
+logData()
